@@ -1,0 +1,27 @@
+.addItem{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addItem h1{
+    font-family: Georgia, serif;
+    text-align: center;
+    color:#12486B;
+}
+.itemForm{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input{
+    height: 30px;
+    width: 200px;
+    border-radius: 3px;
+}
+
+.form-button{
+    height: 35px;
+    background-color: rgb(239, 168, 81);
+}
